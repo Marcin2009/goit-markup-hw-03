@@ -1,0 +1,28 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --second-font: "Raleway", sans-serif;
+  --brand-color: black;
+}
+
+body {
+  font-family: var(--main-font);
+
+}
+
+.link:hover {
+  color: tomato;
+}
+.logo{
+  position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+color: #2196F3;
+}
