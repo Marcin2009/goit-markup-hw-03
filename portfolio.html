@@ -12,27 +12,35 @@
     <title>Potfolio</title>
   </head>
   <body>
-    <header class="nav-link">
-      <a class="logo" href="index.html">
-        <span class="logo--blue">Web</span>Studio
-      </a>
+    <header class="header">
+      <a class="logo link" href="index.html"
+        >Web<span class="studio-top">Studio</span></a
+      >
 
       <nav>
-        <ul>
-          <li><a class="nav-link" href="">Agencja</a></li>
-          <li><a class="nav-link" href="/portfolio.html">Potfolio</a></li>
-          <li><a class="nav-link" href="">Kontakty</a></li>
+        <ul class="header-nav-list list">
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="/index.html">Agencja</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="/portfolio.html">Potfolio</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="/kontakty.html">Kontakty</a>
+          </li>
         </ul>
       </nav>
       <div>
-        <ul>
-          <li>
-            <a class="nav-link" href="mailto:info@devstudio.com"
+        <ul class="header-contact-list list">
+          <li class="header-contact-item">
+            <a class="header-contact-link link" href="mailto:info@devstudio.com"
               >info@devstudio</a
             >
           </li>
-          <li>
-            <a href="tel:+48111111111">(+48)111-111-111</a>
+          <li class="header-contact-item">
+            <a class="header-contact-link link" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
           </li>
         </ul>
       </div>
@@ -41,35 +49,35 @@
       <div>
         <ul>
           <li>
-            <button type="button">Wszystkie</button>
+            <button class="portfolio-btn" type="button">Wszystkie</button>
           </li>
           <li>
-            <button type="button">Strony</button>
+            <button class="portfolio-btn" type="button">Strony</button>
           </li>
           <li>
-            <button type="button">Aplikacje</button>
+            <button class="portfolio-btn" type="button">Aplikacje</button>
           </li>
           <li>
-            <button type="button">Dizajn</button>
+            <button class="portfolio-btn" type="button">Dizajn</button>
           </li>
           <li>
-            <button type="button">Marketing</button>
+            <button class="portfolio-btn" type="button">Marketing</button>
           </li>
         </ul>
       </div>
-      <section>
+      <section class="portfolio-title">
         <ul>
           <li>
-            <figure>
+            <figure class="portfolio-title-img">
               <img
                 src="images/team_on_laptop.jpg"
                 alt="team on laptop"
                 width="370"
                 height="294"
               />
-              <figcaption>
-                <h3>Technocrack</h3>
-                <p>Strona internetowa</p>
+              <figcaption class="portfolio-title-description">
+                <h3 class="portfolio-title-client">Technocrack</h3>
+                <p class="portfolio-title-client-link">Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
@@ -82,8 +90,10 @@
                 height="294"
               />
               <figcaption>
-                <h3>Grafika New Orlean vs Golden Star</h3>
-                <p>Dizajn</p>
+                <h3 class="portfolio-title-client">
+                  Grafika New Orlean vs Golden Star
+                </h3>
+                <p class="portfolio-title-client-link">Dizajn</p>
               </figcaption>
             </figure>
           </li>
@@ -96,8 +106,8 @@
                 height="294"
               />
               <figcaption>
-                <h3>Restauracja Seafood</h3>
-                <p>Aplikacje</p>
+                <h3 class="portfolio-title-client">Restauracja Seafood</h3>
+                <p class="portfolio-title-client-link">Aplikacje</p>
               </figcaption>
             </figure>
           </li>
@@ -110,8 +120,8 @@
                 height="294"
               />
               <figcaption>
-                <h3>Projekt Prime</h3>
-                <p>Marketing</p>
+                <h3 class="portfolio-title-client">Projekt Prime</h3>
+                <p class="portfolio-title-client-link">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -124,8 +134,8 @@
                 height="294"
               />
               <figcaption>
-                <h3>Magazyn Limited Edition</h3>
-                <p>Dizajn</p>
+                <h3 class="portfolio-title-client">Magazyn Limited Edition</h3>
+                <p class="portfolio-title-client-link">Dizajn</p>
               </figcaption>
             </figure>
           </li>
@@ -138,8 +148,8 @@
                 height="294"
               />
               <figcaption>
-                <h3>Projekt Lab</h3>
-                <p>Marketing</p>
+                <h3 class="portfolio-title-client">Projekt Lab</h3>
+                <p class="portfolio-title-client-link">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -153,25 +163,33 @@
               />
               <figcaption>
                 <h3>Growing Business</h3>
-                <p>Aplikacja</p>
+                <p class="portfolio-title-client-link">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <h3><a href="text">WebStudio</a></h3>
+    <footer class="footer-menu-nav">
+      <h3>
+        <a class="logo link" href="index.html"
+          >Web<span class="studio-bottom">Studio</span>
+        </a>
+      </h3>
       <address>
-        <ul>
-          <li class="menu-link">m. Warszawa, Aleje Jerozolimskie 21</li>
-          <li>
-            <a class="menu-link" href="mailto:info@example.com"
+        <ul class="footer-contact-list">
+          <li class="footer-contact-item adress">
+            m. Warszawa, Aleje Jerozolimskie 21
+          </li>
+          <li class="footer-contact-item adress">
+            <a class="footer-contact-link link" href="mailto:info@example.com"
               >info@example.com</a
             >
           </li>
-          <li>
-            <a class="menu-link" href="+48111111111">+(48)111-111-111</a>
+          <li class="footer-contact-item adress">
+            <a class="footer-contact-link link" href="+48111111111"
+              >+48 111 111 111</a
+            >
           </li>
         </ul>
       </address>
