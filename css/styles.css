@@ -47,6 +47,11 @@ body {
   letter-spacing: 0.02em;
   color: #757575;
 }
+
+.header {
+  border-bottom: 1px solid #ECECEC;
+}
+
 .logo {
   font-family: "Raleway";
   font-style: normal;
