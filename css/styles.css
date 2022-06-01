@@ -58,6 +58,12 @@ h1,h2,h3,h4,h5,h6,p,ul {
   border-bottom: 1px solid #ECECEC;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .logo {
   font-family: "Raleway";
   font-style: normal;
