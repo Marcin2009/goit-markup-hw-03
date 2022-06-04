@@ -63,7 +63,19 @@ img {
 
 .header .container {
   display: flex;
+  align-items: center;
 }
+
+  .header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-list {
+  display: flex;
+  margin-left: 93px;
+}
+
 .container {
   width: 1200px;
   margin-left: auto;
