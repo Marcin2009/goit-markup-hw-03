@@ -160,7 +160,7 @@ ul {
 .menu-nav {
   width: 1200px;
   height: 600px;
-  
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -184,10 +184,9 @@ ul {
   margin-right: auto;
   margin-bottom: 40px;
   display: block;
-  
 }
 
-.features-menu {
+.feature-menu {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -200,8 +199,9 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  margin-bottom: 10px;
 }
-.feature-list  {
+.feature-list {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
