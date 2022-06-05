@@ -8,31 +8,34 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css"
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
   </head>
   <body>
     <header class="header">
-      <div class="container">
-      <a class="logo link" href="index.html"
-        >Web<span class="studio-top">Studio</span></a
-      >
-
-      <nav class="header-nav">
-        <ul class="header-nav-list list">
-          <li class="header-nav-item">
-            <a class="header-nav-link link" href="index.html">Agencja</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link link" href="kontakt.html">Kontakt</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container header-nav">
+        <nav class="header-nav">
+          <a class="logo link" href="index.html"
+            >Web<span class="studio-top">Studio</span></a
+          >
+          <ul class="header-nav-list list">
+            <li class="header-nav-item">
+              <a class="header-nav-link link" href="index.html">Agencja</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link link" href="portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link link" href="kontakt.html">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
         <ul class="header-contact-list list">
           <li class="header-contact-item">
             <a class="header-contact-link link" href="mailto:info@devstudio.com"
@@ -54,158 +57,160 @@
         </h1>
         <button class="order-btn" type="button">Zamów usługę</button>
       </section>
-      <section>
-        <ul>
-          <li>
-            <h4 class="content">Lorem ipsum</h4>
-            <p class="feature">
+      <section class="features-menu">
+        <div class="container">
+        <ul class="feature-list list">
+          <li class="feature-item">
+            <h4 class="feature-header">Lorem ipsum</h4>
+            <p class="feature-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
-            <h4 class="content">Lorem ipsum</h4>
-            <p class="feature">
+          <li class="feature-item">
+            <h4 class="feature-header">Lorem ipsum</h4>
+            <p class="feature-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
-            <h4 class="content">Lorem ipsum</h4>
-            <p class="feature">
+          <li class="feature-item">
+            <h4 class="feature-header">Lorem ipsum</h4>
+            <p class="feature-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
-            <h4 class="content">Lorem ipsum</h4>
-            <p class="feature">
+          <li class="feature-item">
+            <h4 class="feature-header">Lorem ipsum</h4>
+            <p class="feature-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
         </ul>
+      </div>
       </section>
       <section class="main-title">
         <div class="container">
-        <h2 class="section-title">Czym się zajmujemy</h2>
-        <ul>
-          <li>
-            <img
-              src="images/desktop.jpg"
-              alt="man at the desk"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="images/mobile.jpg"
-              alt="smartphone with laptop in the background"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="images/tablet.jpg"
-              alt="tablet on the background of the desk"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
-      </div>
+          <h2 class="section-title">Czym się zajmujemy</h2>
+          <ul>
+            <li>
+              <img
+                src="images/desktop.jpg"
+                alt="man at the desk"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li>
+              <img
+                src="images/mobile.jpg"
+                alt="smartphone with laptop in the background"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li>
+              <img
+                src="images/tablet.jpg"
+                alt="tablet on the background of the desk"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="main-title-team">
         <div class="container">
-        <h2 class="team-section-title">Nasz zespół</h2>
-        <ul>
-          <li>
-            <figure>
-              <img
-                src="images/product_designer.jpg"
-                alt="John Doe product designer"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <h3 class="worker">John Doe</h3>
-                <p class="worker-position">Product Designer</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/frontend_developer.jpg"
-                alt="John Doe frontend developer"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <h3 class="worker">John Doe</h3>
-                <p class="worker-position">Frontend Developer</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/marketing.jpg"
-                alt="John Doe marketing"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <h3 class="worker">John Doe</h3>
-                <p class="worker-position">Front Developer</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/ui_designer.jpg"
-                alt="John Doe ui designer"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <h3 class="worker">John Doe</h3>
-                <p class="worker-position">UI Designer</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
-      </div>
+          <h2 class="team-section-title">Nasz zespół</h2>
+          <ul>
+            <li>
+              <figure>
+                <img
+                  src="images/product_designer.jpg"
+                  alt="John Doe product designer"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h3 class="worker">John Doe</h3>
+                  <p class="worker-position">Product Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img
+                  src="images/frontend_developer.jpg"
+                  alt="John Doe frontend developer"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h3 class="worker">John Doe</h3>
+                  <p class="worker-position">Frontend Developer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img
+                  src="images/marketing.jpg"
+                  alt="John Doe marketing"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h3 class="worker">John Doe</h3>
+                  <p class="worker-position">Front Developer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img
+                  src="images/ui_designer.jpg"
+                  alt="John Doe ui designer"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h3 class="worker">John Doe</h3>
+                  <p class="worker-position">UI Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer-menu-nav">
       <div class="container">
-      <h3>
-        <a class="logo link" href="index.html"
-          >Web<span class="studio-bottom">Studio</span></a
-        >
-      </h3>
-      <address class="footer-contact">
-        <ul class="footer-contact-list">
-          <li class="footer-contact-item adress">
-            m. Warszawa, Aleje Jerozolimskie 21
-          </li>
-          <li class="footer-contact-item">
-            <a class="footer-contact-link link" href="mailto:info@example.com"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a class="footer-contact-link link" href="+48111111111"
-              >+48 111 111 111</a
-            >
-          </li>
-        </ul>
-      </address>
-    </div>
+        <h3>
+          <a class="logo link" href="index.html"
+            >Web<span class="studio-bottom">Studio</span></a
+          >
+        </h3>
+        <address class="footer-contact">
+          <ul class="footer-contact-list">
+            <li class="footer-contact-item adress">
+              m. Warszawa, Aleje Jerozolimskie 21
+            </li>
+            <li class="footer-contact-item">
+              <a class="footer-contact-link link" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a class="footer-contact-link link" href="+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>

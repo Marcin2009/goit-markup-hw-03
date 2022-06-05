@@ -75,6 +75,8 @@ img {
 .header-nav {
   display: flex;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-nav-list {
@@ -100,7 +102,7 @@ img {
   margin-right: 50px;
 }
 
-.header-nav-item:not(:last-child)  {
+.header-nav-item:not(:last-child) {
   margin-right: 46px;
 }
 .container {
@@ -110,7 +112,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   align-items: center;
-  margin: 0 auto;
 }
 
 .logo {
@@ -139,13 +140,16 @@ ul {
   font-size: 16px;
   line-height: 1.88;
   width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  cursor: pointer;
   color: white;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  padding: 10px 39px;
+  margin-left: 500px;
+  margin-right: ;
 }
 
 .order-btn:hover,
@@ -153,17 +157,16 @@ ul {
   cursor: pointer;
 }
 
+.menu-nav {
+  width: 1200px;
+  height: 600px;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
 .menu-nav,
 .footer-menu-nav {
   background-color: var(--menu-nav-menu-footer-bckgr);
-}
-.menu-link {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .header-title {
@@ -174,11 +177,21 @@ ul {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
+  align-items: center;
   color: #ffffff;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  
 }
 
-.content {
+.features-menu {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.feature-header {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -188,7 +201,7 @@ ul {
   text-transform: uppercase;
   color: #212121;
 }
-.feature {
+.feature-list  {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -196,6 +209,7 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+  display: flex;
 }
 
 .main-title,
