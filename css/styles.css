@@ -149,7 +149,7 @@ ul {
   letter-spacing: 0.06em;
   padding: 10px 39px;
   margin-left: 500px;
-  margin-right: ;
+  
 }
 
 .order-btn:hover,
@@ -169,8 +169,8 @@ ul {
   background-color: var(--menu-nav-menu-footer-bckgr);
 }
 
-.header-title {
-  font-family: "Roboto";
+.menu-title {
+  
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -211,7 +211,10 @@ ul {
   color: #757575;
   display: flex;
 }
-
+.feature-item {
+  margin-right: 30px;
+  max-width: 270px;
+}
 .main-title,
 .main-title-team {
   font-family: "Roboto";
@@ -222,8 +225,17 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+
+}
+.section-title {
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
+.section-list {
+display: flex;
+
+}
 .main-title-team {
   background-color: var(--team-background-color);
 }
