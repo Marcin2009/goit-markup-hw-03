@@ -34,7 +34,7 @@ ul {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  
+
   padding-left: 15px;
   padding-right: 15px;
   align-items: center;
@@ -216,7 +216,7 @@ ul {
   margin-right: 30px;
   max-width: 270px;
 }
-.main-title,
+.we-do,
 .main-title-team {
   font-family: "Roboto";
   font-style: normal;
@@ -227,13 +227,14 @@ ul {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.section-title {
+.we-do-title {
   padding-top: 94px;
   padding-bottom: 50px;
 }
 
-.section-list {
+.we-do-list {
   display: flex;
+  justify-content: space-between;
 }
 .main-title-team {
   background-color: var(--team-background-color);
