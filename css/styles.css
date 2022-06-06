@@ -159,7 +159,6 @@ ul {
 }
 
 .orders {
- 
   height: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -216,8 +215,8 @@ ul {
   margin-right: 30px;
   max-width: 270px;
 }
-.we-do,
-.main-title-team {
+.we-do-title,
+.our-team-title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -227,7 +226,8 @@ ul {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.we-do-title {
+.we-do-title,
+.our-team-title {
   padding-top: 94px;
   padding-bottom: 50px;
 }
@@ -235,16 +235,24 @@ ul {
 .we-do-list {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 94px;
 }
 
-.we-do-item:not(:last-child){
+.we-do-item:not(:last-child) {
   margin-right: 30px;
-  
 }
-.main-title-team {
+.our-team {
   background-color: var(--team-background-color);
 }
 
+.our-team-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-team-item:not(:last-child) {
+  margin-right: 30px;
+}
 .worker {
   font-family: "Roboto";
   font-style: normal;
@@ -271,7 +279,6 @@ ul {
 }
 
 .footer-menu-nav {
-  
   height: 252px;
   left: 0px;
   top: 2097px;
