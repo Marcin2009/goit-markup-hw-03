@@ -159,7 +159,7 @@ ul {
 }
 
 .orders {
-  width: 1200px;
+ 
   height: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -236,6 +236,11 @@ ul {
   display: flex;
   justify-content: space-between;
 }
+
+.we-do-item:not(:last-child){
+  margin-right: 30px;
+  
+}
 .main-title-team {
   background-color: var(--team-background-color);
 }
@@ -266,7 +271,7 @@ ul {
 }
 
 .footer-menu-nav {
-  width: 1600px;
+  
   height: 252px;
   left: 0px;
   top: 2097px;
