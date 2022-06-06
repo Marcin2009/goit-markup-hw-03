@@ -253,6 +253,8 @@ ul {
 .our-team-item:not(:last-child) {
   margin-right: 30px;
 }
+
+
 .worker {
   font-family: "Roboto";
   font-style: normal;
