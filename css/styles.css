@@ -326,6 +326,11 @@ ul {
 
 /* portfolio.html */
 
+.portfolio-projects-btn {
+  display: flex;
+  
+  
+}
 .portfolio-btn {
   font-weight: 500;
   font-size: 16px;
@@ -336,7 +341,18 @@ ul {
   border: none;
   cursor: pointer;
   color: var(--brand-color);
+  
+  
+  
 }
+.portfolio-btn-list {
+  display: inline-block;
+  justify-content: center;
+  
+  padding-bottom: 50px;
+  
+}
+
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
