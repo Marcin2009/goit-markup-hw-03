@@ -1,5 +1,15 @@
-/* index.html */
 
+
+* {
+  margin: 0px ;
+  padding: 0px;
+} 
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
 :root {
   --main-font: "Roboto", sans-serif;
   --second-font: "Raleway", sans-serif;
@@ -44,6 +54,8 @@ ul {
 img {
   display: block;
 }
+
+/* index.html */
 .header-nav-link {
   font-weight: 500;
   font-size: 14px;
