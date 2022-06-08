@@ -346,6 +346,10 @@ ul {
   border: none;
   cursor: pointer;
   color: var(--brand-color);
+  display: inline-block;
+  min-width: 77px;
+  border: 1px solid transparent;
+  padding: 6px 22px;
 }
 .portfolio-btn-item {
   display: inline-block;
@@ -361,7 +365,7 @@ ul {
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  color: white;
+  color: var(--team-background-color);
   background: var(--link-color-hover);
 }
 
@@ -378,4 +382,25 @@ ul {
   line-height: 30px;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.portfolio-item{
+  margin-right: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: auto;
+}
+.portfolio-title-description {
+  max-width: 370px;
+  padding: 20px 24px;
+  border: 1px solid #EEEEEE;
 }
