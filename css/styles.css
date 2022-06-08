@@ -1,13 +1,11 @@
-
-
 * {
-  margin: 0px ;
+  margin: 0px;
   padding: 0px;
-} 
+}
 
 *,
 *::before,
-*::after{
+*::after {
   box-sizing: border-box;
 }
 :root {
@@ -148,8 +146,7 @@ ul {
 
 .order-btn {
   background: #2196f3;
-  font-family: "Roboto";
-  font-style: normal;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -157,12 +154,9 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: white;
-  display: inline-block;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  padding: 10px 39px;
-  margin-left: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .order-btn:hover,
@@ -302,7 +296,6 @@ ul {
 }
 .studio-bottom {
   color: var(--studio-bottom-color);
-  
 }
 
 .footer-menu-nav {
@@ -340,8 +333,6 @@ ul {
 
 .portfolio-projects-btn {
   display: flex;
-  
-  
 }
 .portfolio-btn {
   font-weight: 500;
@@ -353,19 +344,20 @@ ul {
   border: none;
   cursor: pointer;
   color: var(--brand-color);
-  
-  
-  
 }
-.portfolio-btn-list {
+.portfolio-btn-item {
   display: inline-block;
   justify-content: center;
-  
   padding-bottom: 50px;
   
 }
-
-
+.portfolio-btn-item:not(:last-child) {
+  margin-right: 8px;
+}
+.portfolio-btn-list{
+  display: flex;
+  justify-content: center;
+}
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   color: white;
