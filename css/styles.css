@@ -43,7 +43,7 @@ ul {
   max-width: 1200px;
   margin: 0 auto;
   align-items: center;
-  /* outline: 2px dashed #f44336; */
+  outline: 2px dashed #f44336;
 }
 
 img {
@@ -115,7 +115,7 @@ img {
   
 }
 .header-contact-link {
-  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .header-nav-item:not(:last-child) {
